@@ -1,0 +1,38 @@
+/* Variables */
+
+var a = 2;
+var b = 2;
+var c = 1;
+
+
+/* If */
+
+if((a+b) == 4):
+    print("Esto es un if");
+endif
+
+
+/* If else */
+
+if((a+b) == 5):
+    print("Esto es un if else");
+else:
+        print("Error");
+endif
+
+
+/* While */
+
+print("imprimiendo while de 0 a 3");
+while(c <= 3):
+    print(c);
+    c = c + 1;
+endwhile
+
+
+/* for */
+
+print("imprimiendo for de 0 a 2");
+for(c = 0; c < 3; c = c + 1):
+    print(c);
+endfor
